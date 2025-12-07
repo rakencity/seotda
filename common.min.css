@@ -1,0 +1,104 @@
+#casino1,#casino2,#casino3{background:#FFF;}
+
+@keyframes border_onon {
+
+ 0% {  
+        border: 5px solid yellow;
+     }
+  100% { 
+		border: 5px solid #ff6600;
+     }
+
+}
+
+
+
+
+#bumy_casino * {box-sizing:border-box; }
+
+	#bumy_casino{width:100%;background:url(./img/bg.jpg);background-size:cover;padding-bottom:40px;}
+	#bumy_casino:after{display:block;visibility:hidden;clear:both;content:""}
+	#bumy_casino h1{text-align:center;font-size:50px;font-weight:900;color:yellow;text-shadow: -1px 0 #f00, 0 3px #f00, 3px 0 #f00, 0 -1px #f00;}
+	#bumy_casino .casino_content{width:70%;margin:0 auto;background:#000;padding:2%;}
+	#bumy_casino .casino_content:after {display:block;visibility:hidden;clear:both;content:""}
+	#bumy_casino .casino_content .slotMachine{width:30%;margin:1.5%;height:auto;padding-bottom:29%;float:left;position:relative;overflow:hidden;border:5px solid yellow;}
+
+
+			.point_area {width:70%;background:#000;padding:10px; margin:0 auto;}
+			.point_area:after{display:block;visibility:hidden;clear:both;content:""}
+
+			.point_area p{width:33.333%; float:left;text-align:center;color:#FFF;font-weight:bold;background:none;}
+			.point_area p input{width:70%; text-align:center;color:#000;font-size:16px;border:0;}
+			
+			.btn_area{width:70%;margin:0 auto;background:#000;}
+			.btn_area:after{display:block;visibility:hidden;clear:both;content:""}
+
+			.btn_area button{float:left;width:29.3333%;height:60px;line-height:50px;text-align:center;;margin:1% 2%}
+			.btn_area #stop_auto{display:none;}
+
+
+			#sound_on{display:none;}
+
+			.btn_area button {
+				-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+				-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+				box-shadow: 0px 1px 0px 0px #fff6af;
+				background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+				background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+				background-color:#ffec64;
+				-moz-border-radius:6px;
+				-webkit-border-radius:6px;
+				border-radius:6px;
+				border:1px solid #ffaa22;
+				display:inline-block;
+				cursor:pointer;
+				color:#333333;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+
+				text-decoration:none;
+				text-shadow:0px 1px 0px #ffee66;
+			}
+			.btn_area button:hover {
+				background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+				background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+				background-color:#ffab23;
+			}
+			.btn_area button:active {
+				position:relative;
+				top:1px;
+			}
+
+			.jackpat_info {width:70%;background:#000;padding:30px; margin:0 auto;}
+			.jackpat_info:after{display:block;visibility:hidden;clear:both;content:""}
+
+			.jackpat_info p{width:100%; height:50px;line-height:50px;text-align:center;color:#FFF;font-weight:bold;background:none;}
+			.jackpat_info p img {width:40px;}
+
+			.jackpat_info p.tit{font-size:20px;background:#ff6600;color:#fff;}
+			.jackpat_info p.tit2{height:30px;}
+
+
+			@media(max-width: 700px) {
+			#bumy_casino .casino_content{width:100%;}
+				.point_area {width:100%;}
+				
+				.btn_area{width:100%;}
+
+				.jackpat_info {width:100%;}
+				.jackpat_info p img {
+    width: 35px;
+}
+			}
+
